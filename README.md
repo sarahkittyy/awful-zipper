@@ -18,7 +18,9 @@ The worst zipper in the world
 
 ```bash
 git clone https://github.com/sarahkittyy/awful-zipper.git
-cd awful-zipper/build
+cd awful-zipper
+git submodule update --init --recursive
+cd build
 cmake ..
 make
 ```
