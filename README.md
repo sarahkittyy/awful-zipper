@@ -9,6 +9,11 @@ The worst zipper in the world
 * Randomly generated intermediate zip names
 * Randomly password-protected intermediate steps, where the password is one in a text file full of 6-8 passwords
 
+## Dependencies
+
+* [SFML 2.5](https://www.sfml-dev.org/download.php)
+* [zlib](http://www.zlib.net/)
+
 ## Building
 
 ```bash
