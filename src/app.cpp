@@ -49,7 +49,9 @@ int app::run() {
 		window.display();
 	}
 
-	zipping_thread.join();
+	if (zipping_thread.joinable()) {
+		zipping_thread.join();
+	}
 
 	ImGui::SFML::Shutdown();
 
