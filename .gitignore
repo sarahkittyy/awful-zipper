@@ -1,5 +1,4 @@
 *.code-workspace
-build
 .vscode/ipch
 *.zip
 imgui.ini
